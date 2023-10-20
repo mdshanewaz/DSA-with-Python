@@ -8,9 +8,10 @@ class BubbleSort:
         for i in range(0, n-1):
             for j in range(0, n-1-i):
                 if arr[j] > arr[j+1]:
-                    temp = arr[j]
-                    arr[j] = arr[j+1]
-                    arr[j+1] = temp
+                    # temp = arr[j]
+                    # arr[j] = arr[j+1]
+                    # arr[j+1] = temp
+                    arr[j], arr[j+1] = arr[j+1], arr[j]
 
             print(arr)
 
