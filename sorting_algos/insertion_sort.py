@@ -16,3 +16,4 @@ class InsertionSort:
 obj = InsertionSort
 val = [7, 3, 2, 11, 4, 6, 1, 5]
 obj.solve(val)
+ 
